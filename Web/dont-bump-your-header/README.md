@@ -7,5 +7,5 @@ __Category:__ Web [MEDIUM]
 ## Approach
 
 Berikut ini adalah tampilan pertama kali laman `http://165.227.106.113/header.php` ketika dibuka di browser
+![Page screenshot](docs/page.png)
 
-![[page.png]]
