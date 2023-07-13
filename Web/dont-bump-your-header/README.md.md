@@ -8,4 +8,4 @@ __Category:__ Web [MEDIUM]
 
 Berikut ini adalah tampilan pertama kali laman `http://165.227.106.113/header.php` ketika dibuka di browser
 
-![[Pasted image 20230713123530.png]]
+![[page.png]]
