@@ -8,7 +8,7 @@ __Category:__ Web [MEDIUM]
 
 Berikut ini adalah tampilan pertama kali laman `http://165.227.106.113/header.php` ketika dibuka di browser
 
-![Page screenshot](page_screenshot.png)
+![first approach](docs/page_screenshot.png)
 
 Terdapat pesan
 > Sorry, it seems as if your user agent is not correct, in order to access this website. The one you supplied is: xxxxxxxx
