@@ -8,7 +8,7 @@ __Category:__ Web [MEDIUM]
 
 Berikut ini adalah tampilan pertama kali laman `http://165.227.106.113/header.php` ketika dibuka di browser
 
-![Page screenshot](docs/page.png)
+![Page screenshot](page_screenshot.png)
 
 Terdapat pesan
 > Sorry, it seems as if your user agent is not correct, in order to access this website. The one you supplied is: xxxxxxxx
@@ -18,7 +18,8 @@ Pesan tersebut bermaksud memberitahu pengunjung jika User-Agent yang digunakan k
 Selanjutnya, ketika laman di *inspect element*, terdapat comments yang nampak mencurigakan, yaitu
 > `<!-- Sup3rS3cr3tAg3nt  -->`
 
-Kita berasumsi bahwa `Sup3rS3cr3tAg3nt` merupakan User-Agent yang diminta dalam kasus tersebut, selanjutnya kita perlu memodifikasi [Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) yaitu User-Agent. 
-Untuk dapat melakukan hal ini, kita dapat menggunakan Burpsuite, CURL, atau mengirimkan ulang request pada tab network devtools pada Firefox. (opsi lain dengan membuat program sederhana menggunakan bahasa apapun untuk melakukan HTTP request dengan custom header)
+![comments](docs/comments.png)
 
-.
+Kita berasumsi bahwa `Sup3rS3cr3tAg3nt` merupakan User-Agent yang diminta dalam kasus tersebut, selanjutnya kita perlu memodifikasi [Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) yaitu User-Agent. 
+
+Untuk dapat melakukan hal ini, kita dapat menggunakan Burpsuite, CURL, atau mengirimkan ulang request pada tab network devtools pada Firefox. (opsi lain dengan membuat program sederhana menggunakan bahasa apapun untuk melakukan HTTP request dengan custom header)
